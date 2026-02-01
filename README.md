@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bright Future School</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; }
+    header {
+      background:#004aad;
+      color:white;
+      text-align:center;
+      padding:60px 20px;
+    }
+    header h1 { font-size:2.5rem; }
+    .btn {
+      display:inline-block;
+      margin-top:20px;
+      padding:12px 25px;
+      background:#ffcc00;
+      color:black;
+      text-decoration:none;
+      border-radius:5px;
+      font-weight:bold;
+    }
+    section { padding:40px 20px; max-width:1000px; margin:auto; }
+    .cards {
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+      gap:20px;
+    }
+    .card {
+      background:#f4f4f4;
+      padding:20px;
+      border-radius:8px;
+      text-align:center;
+    }
+    footer {
+      background:#004aad;
+      color:white;
+      text-align:center;
+      padding:15px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Bright Future School</h1>
+  <p>Building knowledge, character, and excellence</p>
+  <a href="#" class="btn">Enroll Now</a>
+</header>
+
+<section>
+  <h2>About Our School</h2>
+  <p>
+    Bright Future School is committed to quality education, discipline,
+    and preparing students for a successful future.
+  </p>
+</section>
+
+<section class="cards">
+  <div class="card">
+    <h3>Qualified Teachers</h3>
+    <p>Experienced and dedicated educators.</p>
+  </div>
+  <div class="card">
+    <h3>Modern Facilities</h3>
+    <p>Well-equipped classrooms and labs.</p>
+  </div>
+  <div class="card">
+    <h3>Safe Environment</h3>
+    <p>Secure and student-friendly campus.</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Bright Future School</p>
+</footer>
+
+</body>
+</html>
